@@ -3,13 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.milkbowl.vault</groupId>
 	<artifactId>VaultAPI</artifactId>
-	<version>1.6</version>
+	<version>1.8</version>
 	<name>VaultAPI</name>
 	<url>http://dev.bukkit.org/server-mods/vault/</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<bukkitVersion>1.9-R0.1-SNAPSHOT</bukkitVersion>
+		<bukkitVersion>1.13-R0.1-20180728.202451-1</bukkitVersion>
 	</properties>
 
 	<!-- Organization -->
@@ -38,6 +38,10 @@
 		<repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+		</repository>
+		<repository>
+		    <id>acmcentral-repo</id>
+		    <url>http://artifactory.acmcentral.org/minecraft-deps/</url>
 		</repository>
 	</repositories>
 
@@ -75,8 +79,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>
